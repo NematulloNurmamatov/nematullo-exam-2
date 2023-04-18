@@ -148,6 +148,12 @@ main .section1 .sec1 .left button {
   background-color: transparent;
   border-radius: 48px;
   border: 1px solid white;
+  transition: .5s;
+}
+
+main .section1 .sec1 .left button:hover {
+  background-color: white;
+  color: #BB2339;
 }
 
 main #owl-carousel {
@@ -354,7 +360,7 @@ main .section3 .fll2 .hov p {
 }
 
 main .section3 .fll2 .hov:hover {
-  background-color: #aaaaaa;
+  background-color: #eeeeee;
 }
 
 main .section3 .sc .sc2 {
@@ -444,7 +450,7 @@ main .section5 .sec5 .fle {
 main .section5 .sec5 .fle .bir {
   border: 1px solid gray;
   border-radius: 13px;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 
 main .section5 .sec5 .fle .bir img {
@@ -499,9 +505,9 @@ main .section5 .sec5 .fle .bir .pad .bot .ra {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 19px;
-  color: #242424;
+  color: #000;
   opacity: 0.5;
 }
 
@@ -538,6 +544,12 @@ main .section5 .button button {
   background-color: transparent;
   color: black;
   border-radius: 20px;
+  transition: .5s;
+}
+
+main .section5 .button button:hover {
+  background-color: #BB2339;
+  color: white;
 }
 
 main .section6 {
@@ -600,6 +612,12 @@ main .section6 .sec6 .fleks .left button {
   padding: 10px 40px;
   border-radius: 30px;
   border: 1px solid #BB2339;
+  transition: .5s;
+}
+
+main .section6 .sec6 .fleks .left button:hover {
+  background-color: #BB2339 !important;
+  color: white;
 }
 
 main .container2 {
